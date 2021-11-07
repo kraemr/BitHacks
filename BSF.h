@@ -1,5 +1,4 @@
 //Bit Scan Forwards
-//TODO TEST THIS CODE
 int BSF(unsigned int num)
 {
 if(num == 0) return-1;
