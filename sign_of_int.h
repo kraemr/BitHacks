@@ -1,7 +1,7 @@
 #include <limits.h>
-int sign;
 int Computesign(int v)
 {
+  int sign;
 // CHAR_BIT is the number of bits per byte (normally 8).
 sign = -(v < 0);  // if v < 0 then -1, else 0. 
 // or, to avoid branching on CPUs with flag registers (IA32):
